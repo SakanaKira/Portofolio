@@ -17,7 +17,7 @@ const projects = [
     technologies: ["Next.js", "React", "Tailwind CSS"],
     icon: Code2,
     gradient: "from-blue-600/30 via-cyan-500/20 to-slate-900",
-    github: "https://github.com/akanaakira",
+    github: "https://github.com/SakanaKira/Portofolio.git",
     demo: "https://example.com",
   },
   {
@@ -28,19 +28,8 @@ const projects = [
     technologies: ["React", "JavaScript", "CSS"],
     icon: Code2,
     gradient: "from-violet-600/30 via-blue-500/20 to-slate-900",
-    github: "https://github.com/username",
-    demo: "https://example.com",
-  },
-  {
-    title: "Task Management App",
-    category: "Web Application",
-    description:
-      "A simple task management application to organize daily activities and improve productivity.",
-    technologies: ["Next.js", "Tailwind CSS", "JavaScript"],
-    icon: Code2,
-    gradient: "from-cyan-600/30 via-blue-500/20 to-slate-900",
-    github: "https://github.com/username",
-    demo: "https://example.com",
+    github: "https://github.com/aliffattahqawly/projectkasir.git",
+    demo: "https://projectkasir.vercel.app",
   },
 ];
 

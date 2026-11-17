@@ -1,4 +1,3 @@
-
 import {
   Code2,
   Palette,
@@ -15,6 +14,14 @@ const skills = [
   "React",
   "Next.js",
   "Tailwind CSS",
+  "Python",
+  "Pandas",
+  "SQL",
+  "Excel",
+  "Google BigQuery",
+  "Matplotlib",
+  "Seaborn", 
+  "Google Looker Studio"
 ];
 
 const highlights = [
@@ -47,7 +54,6 @@ export default function About() {
       <div className="pointer-events-none absolute -right-40 bottom-10 h-80 w-80 rounded-full bg-cyan-500/10 blur-[120px]" />
 
       <div className="relative z-10 mx-auto max-w-6xl">
-
         {/* Section Heading */}
         <div className="mb-16 text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-blue-400/20 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-300">
@@ -63,33 +69,30 @@ export default function About() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            A little introduction about who I am and what I love to do.
+            A little introduction about who I am and what I love to
+            do.
           </p>
         </div>
 
         {/* About Content */}
         <div className="grid items-center gap-14 md:grid-cols-2">
-
           {/* Left: Profile Card */}
           <div className="relative mx-auto w-full max-w-md">
-
             <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-blue-500/20 to-cyan-400/10 blur-xl" />
 
             <div className="relative overflow-hidden rounded-3xl border border-blue-400/20 bg-[#0B1B32] p-8 shadow-2xl shadow-blue-950/30">
-
               {/* Decorative Circle */}
               <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full border border-blue-400/10" />
               <div className="absolute -right-10 -top-10 h-36 w-36 rounded-full border border-cyan-400/10" />
 
               <div className="relative flex flex-col items-center py-8 text-center">
-
                 {/* Profile Avatar */}
                 <div className="flex h-36 w-36 items-center justify-center rounded-full border-4 border-blue-400/20 bg-gradient-to-br from-blue-500 to-cyan-400 shadow-xl shadow-blue-500/20">
                   <UserRound size={72} className="text-white" />
                 </div>
 
                 <h3 className="mt-7 text-2xl font-bold text-white">
-                  Your Name
+                  Aqna Akhila Beniswita Putra
                 </h3>
 
                 <p className="mt-2 text-blue-300">
@@ -97,8 +100,8 @@ export default function About() {
                 </p>
 
                 <p className="mt-5 max-w-xs text-sm leading-7 text-slate-400">
-                  Passionate about technology, web development,
-                  and creating meaningful digital experiences.
+                  Passionate about technology, web development, and
+                  creating meaningful digital experiences.
                 </p>
 
                 <div className="mt-7 flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-2 text-sm text-cyan-300">
@@ -123,15 +126,21 @@ export default function About() {
             </h3>
 
             <p className="mt-6 leading-8 text-muted-foreground">
-              Hello! I'm Your Name, a passionate Frontend Developer
-              who enjoys turning ideas into beautiful and functional
-              websites.
+              I am a Computer Science graduate from Sriwijaya
+              University with a Cum Laude distinction and a GPA of
+              3.94/4.00. I have a strong interest in Data Analytics,
+              Data Science, and Software Development, with internship
+              experience in IT infrastructure, application
+              development, and database management.
             </p>
 
             <p className="mt-4 leading-8 text-muted-foreground">
-              I enjoy exploring modern web technologies, learning
-              new things, and developing interfaces that provide
-              great user experiences.
+              Skilled in Python, Pandas, SQL, Excel, Google BigQuery,
+              and data visualization using Matplotlib, Seaborn, and
+              Google Looker Studio. I also have knowledge of Machine
+              Learning, Predictive Modeling, and software development,
+              with a strong commitment to continuous learning and
+              building effective technology-driven solutions.
             </p>
 
             {/* Skills */}
@@ -169,9 +178,7 @@ export default function About() {
                   <Icon size={24} />
                 </div>
 
-                <h4 className="text-lg font-bold">
-                  {item.title}
-                </h4>
+                <h4 className="text-lg font-bold">{item.title}</h4>
 
                 <p className="mt-3 text-sm leading-7 text-muted-foreground">
                   {item.description}
@@ -180,7 +187,6 @@ export default function About() {
             );
           })}
         </div>
-
       </div>
     </section>
   );

@@ -11,12 +11,12 @@ import {
 const socialLinks = [
   {
     name: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/SakanaKira",
     icon: faGithub,
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/aqnaakhilabp",
     icon: faLinkedin,
   },
   {
@@ -50,7 +50,7 @@ export default function Footer() {
               href="#home"
               className="text-2xl font-bold tracking-tight text-white"
             >
-              Your<span className="text-blue-400">Name.</span>
+              Aqna <span className="text-blue-400">Akhila BP.</span>
             </a>
 
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">
@@ -58,18 +58,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
-          <nav className="flex flex-wrap justify-center gap-6">
-            {footerLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-sm text-slate-400 transition-colors duration-300 hover:text-cyan-300"
-              >
-                {link.name}
-              </a>
-            ))}
-          </nav>
 
           {/* Social Media */}
           <div className="flex items-center gap-3">

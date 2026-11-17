@@ -19,8 +19,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Me",
-    value: "your.email@example.com",
-    href: "mailto:your.email@example.com",
+    value: "akhila.aqna.10@gmail.com",
+    href: "mailto:akhila.aqna.10@gmail.com",
   },
   {
     icon: MapPin,
@@ -142,7 +142,7 @@ export default function Contact() {
                 </p>
 
                 <a
-                  href="mailto:your.email@example.com?subject=Portfolio%20Inquiry"
+                  href="mailto:akhila.aqna.10@gmail.com?subject=Portfolio%20Inquiry"
                   className="group mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-4 font-semibold text-primary-foreground shadow-lg shadow-blue-600/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-blue-500/30"
                 >
                   <Mail size={18} />
@@ -163,7 +163,7 @@ export default function Contact() {
 
                 <div className="mt-4 flex items-center gap-4">
                   <a
-                    href="https://github.com/username"
+                    href="https://github.com/SakanaKira"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="GitHub"
@@ -173,7 +173,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://linkedin.com/in/username"
+                    href="https://linkedin.com/in/aqnaakhilabp"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="LinkedIn"
